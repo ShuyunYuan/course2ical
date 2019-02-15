@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group 'me.yuanshuyun.java.course2ical'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.jsoup:jsoup:1.11.3'
+    implementation 'org.mnode.ical4j:ical4j:2.2.3'
+}
